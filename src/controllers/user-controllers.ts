@@ -84,7 +84,7 @@ export const userLogin = async (
 
     res.clearCookie(COOKIE_NAME, {
       httpOnly: true,
-      domain: "chat-gpt-frontend-ten.vercel.app",
+      domain: "localhost",
       signed: true,
       path: "/",
     });
